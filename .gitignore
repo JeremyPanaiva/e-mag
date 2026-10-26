@@ -42,3 +42,7 @@ next-env.d.ts
 
 # claude code (personal)
 .claude/settings.local.json
+
+# raw extraction material (kept local; optimized copies live in public/)
+/source/*
+!/source/README.md
