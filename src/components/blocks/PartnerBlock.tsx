@@ -4,7 +4,7 @@ import { asset } from "@/lib/asset";
 import { getImageSize } from "@/lib/imageSize";
 
 function cta(url: string) {
-  if (url.startsWith("mailto:")) return "Écrire à l'annonceur";
+  if (url.startsWith("mailto:")) return "Écrire à l’annonceur";
   if (url.startsWith("tel:")) return "Appeler";
   return "Découvrir le site";
 }
@@ -32,7 +32,7 @@ export function PartnerBlock({ partnerId }: { partnerId: string }) {
           <a
             href={p.url}
             {...(external ? { target: "_blank", rel: "noopener noreferrer sponsored" } : {})}
-            className="mt-2 inline-flex h-12 w-fit items-center rounded-full bg-ink px-6 font-semibold text-white transition-colors hover:bg-violet"
+            className="mt-2 inline-flex h-12 w-fit items-center rounded-full bg-ink px-6 font-semibold text-white transition-colors hover:bg-violet press"
           >
             {cta(p.url)}
           </a>

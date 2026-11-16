@@ -6,7 +6,7 @@ const article: Article = {
   kicker: "Club entreprises",
   title: "Numer’IA ou comment s’adapter à la transition numérique",
   chapo:
-    "Le 9 avril dernier, l’Association des Entreprises du pôle d’activités a organisé la première édition du salon Numer’IA. Un événement dédié à la transition numérique.",
+    "Première édition du salon Numer’IA, organisé le 9 avril par l’Association des Entreprises du pôle : cyberattaques, IA générative et RGPD au programme.",
   author: "Martine Debette",
   cover: {
     src: "/n90/numeria-02-cyberattaques.jpg",
@@ -42,7 +42,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "CONFÉRENCE TÉMOIGNAGES DE CYBER ATTAQUES",
+      text: "Conférence : témoignages de cyberattaques",
     },
     {
       type: "paragraph",
@@ -54,15 +54,15 @@ const article: Article = {
     },
     {
       type: "paragraph",
-      text: "Etienne Brasseur, responsable de la sécurité des systèmes d’information à la Société des eaux de Marseille (SEM) dresse un point de situation de ce qui s’apparente à une course entre entreprises et pirates informatiques : « Depuis la guerre en Ukraine, nous constatons que le risque étatique se développe. Il s’adresse surtout aux grosses sociétés à des fins de déstabilisation, de sabotage, de vol de brevet, de rançonnage, c’est très multiforme. Ils ne s’attaquent pas directement à nous mais à notre supply chain, les petites sociétés qui gravitent autour des grosses. À titre d’exemple, certains pays ont tenté de couper l’eau lors des Jeux Olympiques de 2024 ! ».",
+      text: "Étienne Brasseur, responsable de la sécurité des systèmes d’information à la Société des eaux de Marseille (SEM) dresse un point de situation de ce qui s’apparente à une course entre entreprises et pirates informatiques : « Depuis la guerre en Ukraine, nous constatons que le risque étatique se développe. Il s’adresse surtout aux grosses sociétés à des fins de déstabilisation, de sabotage, de vol de brevet, de rançonnage, c’est très multiforme. Ils ne s’attaquent pas directement à nous mais à notre supply chain, les petites sociétés qui gravitent autour des grosses. À titre d’exemple, certains pays ont tenté de couper l’eau lors des Jeux Olympiques de 2024 ! ».",
     },
     {
       type: "paragraph",
-      text: "Renaud Peuteuil, chargé d’affaires flux et solutions de paiement au CIC, est stupéfait de la technicité employée par certains pirates. « Un directeur administratif et financier (DAF) d’un de nos clients a reçu un mail de son président dont le bureau est à côté du sien. Il évoque, dans le plus grand secret, des règlements à effectuer afin d’acquérir une entreprise concurrente. Le style d’écriture et le langage du président ont été étudiés et imités par les pirates. Comme le DAF avait interdiction d’évoquer cela devant les collaborateurs, ils n’en ont jamais parlé de vive voix et, en trois semaines, 450 000€ ont été virés sur ordre du faux président ».",
+      text: "Renaud Peuteuil, chargé d’affaires flux et solutions de paiement au CIC, est stupéfait de la technicité employée par certains pirates. « Un directeur administratif et financier (DAF) d’un de nos clients a reçu un mail de son président dont le bureau est à côté du sien. Il évoque, dans le plus grand secret, des règlements à effectuer afin d’acquérir une entreprise concurrente. Le style d’écriture et le langage du président ont été étudiés et imités par les pirates. Comme le DAF avait interdiction d’évoquer cela devant les collaborateurs, ils n’en ont jamais parlé de vive voix et, en trois semaines, 450 000 € ont été virés sur ordre du faux président ».",
     },
     {
       type: "paragraph",
-      text: "Il s’avère d’ailleurs, qu’en cas de fraude, la faille est bien souvent humaine. « Nous faisons des campagnes internes en envoyant des mails à tous les collaborateurs, avec promesse de billets gratuits par exemple. Malgré des campagnes de sensibilisation permanente, 20% continuent de cliquer. Il faut avoir en tête que si quelque chose est gratuit, c’est que le produit c’est vous ! »",
+      text: "Il s’avère d’ailleurs, qu’en cas de fraude, la faille est bien souvent humaine. « Nous faisons des campagnes internes en envoyant des mails à tous les collaborateurs, avec promesse de billets gratuits par exemple. Malgré des campagnes de sensibilisation permanente, 20 % continuent de cliquer. Il faut avoir en tête que si quelque chose est gratuit, c’est que le produit c’est vous ! »",
     },
     {
       type: "paragraph",
@@ -70,7 +70,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "CONFÉRENCE : COMMENT INTÉGRER L’IA GÉNÉRATIVE DANS VOTRE ENVIRONNEMENT PROFESSIONNEL ?",
+      text: "Conférence : comment intégrer l’IA générative dans votre environnement professionnel ?",
     },
     {
       type: "paragraph",
@@ -78,7 +78,7 @@ const article: Article = {
     },
     {
       type: "paragraph",
-      text: "Mais avant toute chose, qu’est-ce que l’IA générative ? Cécile Demai, France Talents et Transition, donne la réponse : « Comme son nom l’indique, l’IA générative est celle qui génère une réponse, ou un travail, uniquement si on lui demande. En clair, si on ne demande rien à ChatGTP, à Copilot ou à Mistral, il ne se passe rien. Ceci à l’inverse de l’automatisation, qui fonctionne selon une programmation, ou de l’agentique qui, en fonction des paramètres que vous lui aurez préalablement donnés et des « connaissances » qu’elle aura acquises, pourra elle-même décider ce qu’elle doit faire ».",
+      text: "Mais avant toute chose, qu’est-ce que l’IA générative ? Cécile Demai, France Talents et Transition, donne la réponse : « Comme son nom l’indique, l’IA générative est celle qui génère une réponse, ou un travail, uniquement si on lui demande. En clair, si on ne demande rien à ChatGPT, à Copilot ou à Mistral, il ne se passe rien. Ceci à l’inverse de l’automatisation, qui fonctionne selon une programmation, ou de l’agentique qui, en fonction des paramètres que vous lui aurez préalablement donnés et des « connaissances » qu’elle aura acquises, pourra elle-même décider ce qu’elle doit faire ».",
     },
     {
       type: "image",
@@ -105,15 +105,15 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "SENSIBILISATION RGPD",
+      text: "Sensibilisation au RGPD",
     },
     {
       type: "paragraph",
-      text: "C’est par un petit quizz que Stéphanie Sioën-Gallina, spécialisée en droit de la propriété intellectuelle, droit des nouvelles technologies, de l’information et de la communication, a commencé son intervention. L’occasion de vérifier les connaissances de son public sur le sujet, un peu barbare pour beaucoup d’entre nous, du règlement général sur la protection des données (RGPD). Elle a également rappelé les obligations des entreprises en cas de fuite de données personnelles. Alors que toutes les entreprises sont concernées par les cyberattaques, il ressort que les TPE/PME allouent moins de 2 000€ par an à la cybersécurité !",
+      text: "C’est par un petit quiz que Stéphanie Sioën-Gallina, spécialisée en droit de la propriété intellectuelle, droit des nouvelles technologies, de l’information et de la communication, a commencé son intervention. L’occasion de vérifier les connaissances de son public sur le sujet, un peu barbare pour beaucoup d’entre nous, du règlement général sur la protection des données (RGPD). Elle a également rappelé les obligations des entreprises en cas de fuite de données personnelles. Alors que toutes les entreprises sont concernées par les cyberattaques, il ressort que les TPE/PME allouent moins de 2 000 € par an à la cybersécurité !",
     },
     {
       type: "heading",
-      text: "Pourquoi les données personnelles sont importantes ?",
+      text: "Pourquoi les données personnelles comptent-elles ?",
     },
     {
       type: "paragraph",
@@ -125,7 +125,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Les cybermenaces ont toujours un impact sur la RGPD",
+      text: "Les cybermenaces ont toujours un impact sur le RGPD",
     },
     {
       type: "paragraph",
@@ -147,12 +147,12 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Quelques chiffres",
+      text: "Quelques chiffres clés",
     },
     {
       type: "stats",
       items: [
-        { value: "24", label: "fuites de données par jour, soit environ une toutes les heures." },
+        { value: "24", label: "fuites de données par jour, soit environ une par heure." },
         { value: "8 613", label: "violations de données personnelles notifiées à la CNIL entre septembre 2024 et septembre 2025." },
         { value: "12 millions", label: "de personnes concernées en 2025, à comparer aux 8 millions en 2024." },
         { value: "5 905", label: "attaques extérieures recensées en 2025 (3 739 en 2024)." },
@@ -160,11 +160,11 @@ const article: Article = {
     },
     {
       type: "paragraph",
-      text: "Pour en savoir plus : Me Stéphanie Sioën-Gallina 04 96 11 05 30 - contact@sioen.fr.",
+      text: "Pour en savoir plus : Me Stéphanie Sioën-Gallina, 04 96 11 05 30, contact@sioen.fr.",
     },
     {
       type: "heading",
-      text: "URGENCE CYBER",
+      text: "Urgence cyber",
     },
     {
       type: "paragraph",
@@ -185,7 +185,7 @@ const article: Article = {
     },
     {
       type: "paragraph",
-      text: "Différentes études ont été concaténées pour obtenir une moyenne du coût d’une cyberattaque (arrêt de production, perte de clients, remontée du système d’information, temps de travail des prestataires, etc.) pour les entreprises selon leur taille : près de 60 000 € pour les TPE (très petites entreprises), autour des 466 000€ pour les PME (petites et moyennes entreprises), 13 millions d’euros pour les ETI (entreprises de taille intermédiaire) et autour de 135 millions d’euros pour les grands groupes. À cela s’ajoute le paiement de la rançon.",
+      text: "Différentes études ont été concaténées pour obtenir une moyenne du coût d’une cyberattaque (arrêt de production, perte de clients, remontée du système d’information, temps de travail des prestataires, etc.) pour les entreprises selon leur taille : près de 60 000 € pour les TPE (très petites entreprises), autour des 466 000 € pour les PME (petites et moyennes entreprises), 13 millions d’euros pour les ETI (entreprises de taille intermédiaire) et autour de 135 millions d’euros pour les grands groupes. À cela s’ajoute le paiement de la rançon.",
     },
     {
       type: "heading",
@@ -193,7 +193,7 @@ const article: Article = {
     },
     {
       type: "paragraph",
-      text: "Si aujourd’hui 50% des PME refusent d’utiliser des solutions de sécurité parce que ça coûte cher, se faire rançonner peut leur coûter encore plus cher. 40% des entreprises touchées par une cyberattaque sont des TPE et des PME et entre 50% et 60% des PME ferment leurs portes dans les dix jours. En effet, outre l’impact financier, l’entreprise « attaquée » doit faire face, le plus souvent, à d’autres problèmes, notamment de réputation : 47% ont des difficultés pour attirer de nouveaux clients.",
+      text: "Si aujourd’hui 50 % des PME refusent d’utiliser des solutions de sécurité parce que ça coûte cher, se faire rançonner peut leur coûter encore plus cher. 40 % des entreprises touchées par une cyberattaque sont des TPE et des PME et entre 50 % et 60 % des PME ferment leurs portes dans les dix jours. En effet, outre l’impact financier, l’entreprise « attaquée » doit faire face, le plus souvent, à d’autres problèmes, notamment de réputation : 47 % ont des difficultés pour attirer de nouveaux clients.",
     },
     {
       type: "image",

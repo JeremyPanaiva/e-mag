@@ -27,7 +27,7 @@ export const issue: Issue = {
   label: "Juin 2026",
   cover: {
     src: "/n90/couverture.jpg",
-    alt: "Le siège de COGEP sur le Pôle d'Activités d'Aix-en-Provence, entre olivier et façade vitrée",
+    alt: "Le siège de COGEP sur le Pôle d’Activités d’Aix-en-Provence, entre olivier et façade vitrée",
     credit: "COGEP – © Yohann SProd photographe",
   },
   articles: articles.map((a) => a.slug),

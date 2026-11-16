@@ -16,9 +16,9 @@ export function VideoBlock({ title, poster }: { title: string; poster: string })
           <button
             onClick={() => setShown(true)}
             aria-label={`Lire la vidéo : ${title}`}
-            className="group absolute inset-0 flex items-center justify-center"
+            className="group absolute inset-0 flex items-center justify-center rounded-2xl"
           >
-            <span className="flex h-20 w-20 items-center justify-center rounded-full bg-white text-[var(--accent)] shadow-xl transition-transform group-hover:scale-110 motion-reduce:transition-none md:h-24 md:w-24">
+            <span className="flex h-20 w-20 items-center justify-center rounded-full bg-white text-[var(--accent)] shadow-xl transition-transform transition-colors group-hover:scale-105 group-focus-visible:ring-4 group-focus-visible:ring-white/60 motion-reduce:transition-none md:h-24 md:w-24">
               <svg width="30" height="34" viewBox="0 0 30 34" aria-hidden>
                 <path d="M4 3l24 14L4 31z" fill="currentColor" />
               </svg>
@@ -31,15 +31,15 @@ export function VideoBlock({ title, poster }: { title: string; poster: string })
               Démo
             </span>
             <p className="max-w-md font-display text-xl leading-snug md:text-3xl">
-              Emplacement vidéo : ici, l&apos;interview filmée sera intégrée.
+              Emplacement vidéo : ici, l’interview filmée sera intégrée.
             </p>
             <button onClick={() => setShown(false)} className="mt-2 h-11 rounded-full bg-white/15 px-5 font-semibold hover:bg-white/25">
-              Revenir à l&apos;aperçu
+              Revenir à l’aperçu
             </button>
           </div>
         )}
       </div>
-      <figcaption className="mt-3 font-semibold">{title}</figcaption>
+      <figcaption className="caption mt-3">{title}</figcaption>
     </figure>
   );
 }

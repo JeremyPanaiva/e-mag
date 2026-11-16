@@ -4,7 +4,7 @@ const article: Article = {
   slug: "garden-party",
   rubrique: "actu",
   kicker: "Actu",
-  title: "La Garden Party arrive !",
+  title: "La Garden Party arrive !",
   chapo:
     "La 22e édition de la Garden Party du PAAP se déroulera le 25 juin, à partir de 18h30, à la Maison des Entreprises. Au fil des ans, cette rencontre est devenue la marque de fabrique d’un pôle d’activités qui veut associer business et convivialité. Pôles Actu est allé à la rencontre de Philippe De Saintdo, responsable de la commission Club Entreprises, en charge de cette manifestation.",
   author: "Martine Debette",

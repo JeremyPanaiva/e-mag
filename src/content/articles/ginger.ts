@@ -5,7 +5,7 @@ const article: Article = {
   rubrique: "portraits",
   kicker: "Portrait",
   title: "Ginger",
-  subtitle: "Prélever, analyser, diagnostiquer, recommander, crédo de Ginger CEBTP",
+  subtitle: "Prélever, analyser, diagnostiquer, recommander : le credo de Ginger CEBTP",
   chapo:
     "Implanté sur le PAAP par le biais de quatre filiales, le groupe Ginger met son expertise au service de tous les acteurs de la construction, de l’aménagement et du développement durable.",
   author: "Martine Debette",
@@ -38,7 +38,7 @@ const article: Article = {
     },
     {
       type: "paragraph",
-      text: "Des études qui nécessitent un haut niveau de qualification pour la bonne cinquantaine de collaborateurs de l’agence aixoise de Ginger CEBTP : « Environ 60% de notre effectif est constitué d’ingénieurs et 30% de techniciens. Les 10% restants travaillent dans les secteurs plus administratifs. Quant à Ginger BURGEAP, elle compte une quinzaine de collaborateurs dont 90% d’ingénieurs. Pour les quatre entités du groupe basées à Aix, cela représente 85 personnes, soit une des plus grosses agences de France. Dans le groupe, toutes activités confondues, nous avons une bonne centaine de métiers différents. Une chaîne de métiers qui se complète avec une synergie entre les entités », indique David Moreau.",
+      text: "Des études qui nécessitent un haut niveau de qualification pour la bonne cinquantaine de collaborateurs de l’agence aixoise de Ginger CEBTP : « Environ 60 % de notre effectif est constitué d’ingénieurs et 30 % de techniciens. Les 10 % restants travaillent dans les secteurs plus administratifs. Quant à Ginger BURGEAP, elle compte une quinzaine de collaborateurs dont 90 % d’ingénieurs. Pour les quatre entités du groupe basées à Aix, cela représente 85 personnes, soit une des plus grosses agences de France. Dans le groupe, toutes activités confondues, nous avons une bonne centaine de métiers différents. Une chaîne de métiers qui se complète avec une synergie entre les entités », indique David Moreau.",
     },
     {
       type: "heading",
@@ -46,7 +46,7 @@ const article: Article = {
     },
     {
       type: "paragraph",
-      text: "Si en 2024 le chiffre d’affaires du groupe Ginger était réalisé à 80% en France métropolitaine et outre-mer, aujourd’hui ce pourcentage est tombé à 50%. 2025 a, en effet, vu le rachat de deux grandes sociétés d’environ 800 personnes chacune, ABS au Canada et HPC en Allemagne. Aujourd’hui, Ginger réalise un chiffre d’affaires annuel de 470 millions d’euros avec 4 300 collaborateurs répartis au sein de 160 agences, dont une soixantaine en France. Un maillage serré qui traduit la volonté d’être près des clients et des lieux d’intervention.",
+      text: "Si en 2024 le chiffre d’affaires du groupe Ginger était réalisé à 80 % en France métropolitaine et outre-mer, aujourd’hui ce pourcentage est tombé à 50 %. 2025 a, en effet, vu le rachat de deux grandes sociétés d’environ 800 personnes chacune, ABS au Canada et HPC en Allemagne. Aujourd’hui, Ginger réalise un chiffre d’affaires annuel de 470 millions d’euros avec 4 300 collaborateurs répartis au sein de 160 agences, dont une soixantaine en France. Un maillage serré qui traduit la volonté d’être près des clients et des lieux d’intervention.",
     },
     {
       type: "stats",

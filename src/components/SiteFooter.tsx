@@ -15,7 +15,7 @@ export function SiteFooter() {
         />
         <address className="text-[1.05rem] leading-relaxed not-italic text-white/80">
           <p className="font-display text-xl text-white">
-            Association des Entreprises du Pôle d&apos;Activités d&apos;Aix-en-Provence
+            Association des Entreprises du Pôle d’Activités d’Aix-en-Provence
           </p>
           <p className="mt-3">Maison des Entreprises</p>
           <p>45 rue Frédéric Joliot, 13290 Aix-en-Provence</p>
@@ -29,7 +29,7 @@ export function SiteFooter() {
           </p>
         </address>
         <p className="max-w-[16rem] text-sm text-white/60">
-          1 500 entreprises et 29 400 salariés sur le Pôle d&apos;Activités d&apos;Aix-en-Provence.
+          1 500 entreprises et 29 400 salariés sur le Pôle d’Activités d’Aix-en-Provence.
         </p>
       </div>
       <div className="mx-auto mt-10 flex max-w-6xl flex-wrap items-center justify-between gap-3 border-t border-white/15 px-5 pt-6 text-sm text-white/50 md:px-8">

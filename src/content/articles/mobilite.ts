@@ -4,8 +4,8 @@ const article: Article = {
   slug: "mobilite",
   rubrique: "mobilite",
   kicker: "Dossier mobilité",
-  title: "La mobilité",
-  subtitle: "au centre des préoccupations du PAAP",
+  title: "La mobilité au cœur des préoccupations du PAAP",
+  subtitle: "PDMEC, taxe transport, liaison avec Saint-Pons : le point sur les enjeux",
   chapo:
     "Commençons ce dossier mobilité par un petit rappel. Depuis 2019, la Loi d’Orientation des Mobilités (LOM) oblige les entreprises de plus de 50 salariés à discuter de la mobilité dans le cadre des Négociations Annuelles Obligatoires (NAO). L’objectif principal est de réduire l’usage de la voiture individuelle dans l’espoir d’améliorer la qualité de l’air, fluidifier le trafic routier et réduire le stress lié aux trajets domicile/travail.",
   author: "Martine Debette",
@@ -37,11 +37,11 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Augmentation de la taxe transport",
+      text: "Une hausse de la taxe transport évoquée",
     },
     {
       type: "paragraph",
-      text: "Face au « trou » de 123 M€ dans le budget de la métropole Aix-Marseille-Provence, de nombreux élus métropolitains ont évoqué l’idée d’une augmentation du versement mobilité, appelé souvent taxe transport, versé par les entreprises, et qui passerait de 2 à 3% de la masse salariale.",
+      text: "Face au « trou » de 123 M€ dans le budget de la métropole Aix-Marseille-Provence, de nombreux élus métropolitains ont évoqué l’idée d’une augmentation du versement mobilité, appelé souvent taxe transport, versé par les entreprises, et qui passerait de 2 à 3 % de la masse salariale.",
     },
     {
       type: "paragraph",

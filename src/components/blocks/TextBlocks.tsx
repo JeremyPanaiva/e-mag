@@ -13,12 +13,12 @@ function sentenceCase(text: string): string {
 }
 
 export function Paragraph({ text, dropcap }: { text: string; dropcap?: boolean }) {
-  return <p className={`mt-[1.15em] ${dropcap ? "dropcap" : ""}`}>{text}</p>;
+  return <p className={`mt-[1.1em] ${dropcap ? "dropcap" : ""}`}>{text}</p>;
 }
 
 export function Heading({ text }: { text: string }) {
   return (
-    <h2 className="mt-16 text-balance font-display text-[1.75rem] leading-[1.15] md:text-4xl">
+    <h2 className="mt-14 scroll-mt-20 font-display text-[1.75rem] leading-[1.15] md:mt-20 md:text-4xl">
       <span className="mb-4 block h-1.5 w-12 rounded-full bg-[var(--accent)]" aria-hidden />
       {sentenceCase(text)}
     </h2>
@@ -29,7 +29,7 @@ export function Quote({ text, author }: { text: string; author?: string }) {
   return (
     <Reveal className="wide my-14 md:my-20">
       <figure className="relative mx-auto max-w-3xl border-l-[6px] border-[var(--accent)] pl-6 md:pl-10">
-        <blockquote className="text-balance font-display text-[1.6rem] leading-[1.25] md:text-[2.5rem]">
+        <blockquote className="text-balance font-display text-[1.55rem] leading-[1.28] md:text-[2.3rem]">
           <span className="text-[var(--accent)]" aria-hidden>
             «&nbsp;
           </span>
@@ -38,7 +38,7 @@ export function Quote({ text, author }: { text: string; author?: string }) {
             &nbsp;»
           </span>
         </blockquote>
-        {author && <figcaption className="mt-4 text-lg font-semibold text-mute">{author}</figcaption>}
+        {author && <figcaption className="mt-4 text-base font-semibold uppercase tracking-wide text-mute-strong">{author}</figcaption>}
       </figure>
     </Reveal>
   );
@@ -46,8 +46,8 @@ export function Quote({ text, author }: { text: string; author?: string }) {
 
 export function Qa({ question, answer }: { question: string; answer: string[] }) {
   return (
-    <section className="mt-12">
-      <h3 className="font-display text-[1.4rem] leading-snug text-[var(--accent)] md:text-[1.65rem]">{question}</h3>
+    <section className="mt-14">
+      <h3 className="font-display text-[1.4rem] leading-snug text-[var(--accent-ink)] md:text-[1.65rem]">{question}</h3>
       <div className="mt-1 border-l-2 border-line pl-5">
         {answer.map((p, i) => (
           <p key={i} className="mt-[0.9em]">
@@ -62,7 +62,7 @@ export function Qa({ question, answer }: { question: string; answer: string[] })
 export function Callout({ title, text }: { title: string; text: string[] }) {
   return (
     <aside
-      className="my-12 rounded-2xl border-l-[6px] border-[var(--accent)] p-6 md:p-8"
+      className="my-12 rounded-2xl border-l-[6px] border-[var(--accent)] p-6 md:my-14 md:p-8"
       style={{ background: "color-mix(in srgb, var(--accent) 9%, white)" }}
     >
       <h3 className="font-display text-2xl leading-tight">{title}</h3>
@@ -79,7 +79,7 @@ export function Callout({ title, text }: { title: string; text: string[] }) {
 
 export function List({ items }: { items: string[] }) {
   return (
-    <ul className="mt-[1.15em] space-y-3">
+    <ul className="mt-[1.1em] space-y-3">
       {items.map((it, i) => (
         <li key={i} className="relative pl-7">
           <span className="absolute left-0 top-[0.7em] h-2.5 w-2.5 rounded-full bg-[var(--accent)]" aria-hidden />

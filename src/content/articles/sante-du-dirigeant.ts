@@ -4,7 +4,7 @@ const article: Article = {
   slug: "sante-du-dirigeant",
   rubrique: "grand-angle",
   kicker: "Grand angle",
-  title: "Santé du dirigeant : agir en amont et se faire accompagner !",
+  title: "Santé du dirigeant : agir en amont et se faire accompagner !",
   chapo:
     "Pilier de l’entreprise, le dirigeant est soumis à de nombreuses obligations. Entre des textes législatifs de plus en plus contraignants, régulièrement contradictoires, et que nul n’est censé ignorer. Entre les responsabilités, les risques, l’obligation de résultat et les objectifs de chiffre d’affaires permettant de payer ses salariés, il porte une lourde responsabilité. Du coup, même s’il n’a pas le droit à l’erreur, sous peine d’être sanctionné ou pointé du doigt, il lui arrive d’oublier qu’il n’est qu’un humain et que, peut-être, il met sa santé en danger, faute de temps à lui consacrer.",
   author: "Martine Debette",
@@ -17,7 +17,7 @@ const article: Article = {
   blocks: [
     {
       type: "heading",
-      text: "La santé du dirigeant : le premier capital immatériel de l’entreprise",
+      text: "Sa santé, premier capital immatériel de l’entreprise",
     },
     {
       type: "paragraph",
@@ -25,7 +25,7 @@ const article: Article = {
     },
     {
       type: "paragraph",
-      text: "« Longtemps restée dans l’angle mort des politiques de prévention, la santé des dirigeants apparaît aujourd’hui comme un enjeu majeur, à la fois humain et économique. Entre surcharge mentale, isolement et pression décisionnelle, le dirigeant cumule des facteurs de risque spécifiques. Face à ces constats, Santé au Travail Provence élargit progressivement son champ d’action pour intégrer cette population particulière », explique Camille Perrin, directrice marketing ST Provence. Elle explique qu’une étude, menée par l’Observatoire Amarok* et le LABEX Entreprendre de l’Université de Montpellier, a permis d’évaluer le risque de burn-out chez 1 925 dirigeants. Un risque mesuré par un score compris entre 1 et 7. Au-delà de 4, le danger devient significatif. Il est évalué selon la fatigue au travail, l’impuissance, la sensation d’être sans valeur, la lassitude, etc.",
+      text: "« Longtemps restée dans l’angle mort des politiques de prévention, la santé des dirigeants apparaît aujourd’hui comme un enjeu majeur, à la fois humain et économique. Entre surcharge mentale, isolement et pression décisionnelle, le dirigeant cumule des facteurs de risque spécifiques. Face à ces constats, Santé au Travail Provence élargit progressivement son champ d’action pour intégrer cette population particulière », explique Camille Perrin, directrice marketing ST Provence. Elle explique qu’une étude, menée par l’Observatoire Amarok et le LABEX Entreprendre de l’Université de Montpellier, a permis d’évaluer le risque de burn-out chez 1 925 dirigeants. Un risque mesuré par un score compris entre 1 et 7. Au-delà de 4, le danger devient significatif. Il est évalué selon la fatigue au travail, l’impuissance, la sensation d’être sans valeur, la lassitude, etc.",
     },
     {
       type: "quote",
@@ -65,7 +65,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Ce que dit la loi !",
+      text: "Ce que dit la loi",
     },
     {
       type: "paragraph",
@@ -91,7 +91,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "3 questions à François-Xavier Michaux, directeur ST Provence :",
+      text: "3 questions à François-Xavier Michaux, directeur de ST Provence",
     },
     {
       type: "qa",
@@ -109,7 +109,7 @@ const article: Article = {
       type: "qa",
       question: "Les chefs d’entreprises sont-ils moins sensibles à leur santé ?",
       answer: [
-        "Oui et non. Aujourd’hui, il y a un effet pervers auquel il faut sensibiliser les dirigeants qui ne se préoccupent pas de leur santé. Ils ont une entreprise à faire tourner et, dans 90% des cas, ceux qui viennent nous voir sont déjà sous l’eau. Ils ont besoin d’être accompagnés et d’aménagement de poste. De ce fait, nous ne sommes plus en mode prévention, mais en mode sauvetage et nos actions se trouvent limitées. Comme le dit l’expression : mieux vaut prévenir que guérir.",
+        "Oui et non. Aujourd’hui, il y a un effet pervers auquel il faut sensibiliser les dirigeants qui ne se préoccupent pas de leur santé. Ils ont une entreprise à faire tourner et, dans 90 % des cas, ceux qui viennent nous voir sont déjà sous l’eau. Ils ont besoin d’être accompagnés et d’aménagement de poste. De ce fait, nous ne sommes plus en mode prévention, mais en mode sauvetage et nos actions se trouvent limitées. Comme le dit l’expression : mieux vaut prévenir que guérir.",
       ],
     },
     {
@@ -144,14 +144,14 @@ const article: Article = {
       type: "qa",
       question: "Quel constat chez ST Provence sur la santé de ces profils ?",
       answer: [
-        "En juin 2021, l’AIPALS, service de santé au travail implanté à Montpellier (34), a publié une étude concernant la santé du dirigeant dans le contexte de la crise sanitaire. Le bilan est sans appel : plus d’un dirigeant sur deux présentait un risque de burn-out parmi les 256 chefs d’entreprise ayant répondu, dont 53,2% de dirigeants de TPE dont la fragilité est d’autant plus grande. La fatigue, la déception, la lassitude et surtout l’impuissance sont mis en cause. Et 42,5% des répondants se disent isolés, voire très isolés, tandis que 89,9% sont sujets au stress, à différentes échelles (11,9% déclarent être « extrêmement stressés »).",
+        "En juin 2021, l’AIPALS, service de santé au travail implanté à Montpellier (34), a publié une étude concernant la santé du dirigeant dans le contexte de la crise sanitaire. Le bilan est sans appel : plus d’un dirigeant sur deux présentait un risque de burn-out parmi les 256 chefs d’entreprise ayant répondu, dont 53,2 % de dirigeants de TPE dont la fragilité est d’autant plus grande. La fatigue, la déception, la lassitude et surtout l’impuissance sont mis en cause. Et 42,5 % des répondants se disent isolés, voire très isolés, tandis que 89,9 % sont sujets au stress, à différentes échelles (11,9 % déclarent être « extrêmement stressés »).",
       ],
     },
     {
       type: "qa",
       question: "Quels sont les points de faiblesse des dirigeants ?",
       answer: [
-        "Encore tabou, le risque de burn-out est très important. Selon l’observatoire Amarok, 17,5 % des dirigeants de TPE/ PME présentent un risque d’épuisement. Un burn-out qui présente des particularités : installation progressive souvent inaperçue (fatigue, irritabilité, perte de sens), difficulté à demander de l’aide, crainte de renvoyer une image de faiblesse.",
+        "Encore tabou, le risque de burn-out est très important. Selon l’observatoire Amarok, 17,5 % des dirigeants de TPE/PME présentent un risque d’épuisement. Un burn-out qui présente des particularités : installation progressive souvent inaperçue (fatigue, irritabilité, perte de sens), difficulté à demander de l’aide, crainte de renvoyer une image de faiblesse.",
         "Selon le Baromètre Santé des dirigeants (Malakoff Médéric) cité par ADP, on retrouve l’isolement décisionnel, un tiers des dirigeants déclarant ressentir un isolement marqué, ainsi qu’une surcharge de travail chronique : 39 % d’entre eux travaillent plus de 50 heures par semaine. Autre point de faiblesse avec la difficulté à préserver la frontière entre vie pro et vie perso et la dégradation de leur état de santé : 82 % déclarent souffrir d’au moins un trouble physique ou psychologique (contre 71 % en 2024)",
         "Source : Baromètre Fondation MMA / Bpifrance Le Lab (édition 2025). Plus de 7 dirigeants sur 10 jugent leur état physique ou mental dégradé.",
       ],
@@ -166,7 +166,7 @@ const article: Article = {
     {
       type: "stats",
       items: [
-        { value: "17,5 %", label: "des dirigeants de TPE/ PME présentent un risque d’épuisement" },
+        { value: "17,5 %", label: "des dirigeants de TPE/PME présentent un risque d’épuisement" },
         { value: "39 %", label: "d’entre eux travaillent plus de 50 heures par semaine" },
         { value: "82 %", label: "déclarent souffrir d’au moins un trouble physique ou psychologique" },
       ],

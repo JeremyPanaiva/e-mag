@@ -43,7 +43,7 @@ export function ArticleCard({ s, variant, priority = false }: { s: Summary; vari
           <p className="text-lg leading-relaxed opacity-90 line-clamp-5">{s.chapo}</p>
           {meta}
           <span className="mt-1 inline-flex h-12 w-fit items-center rounded-full px-6 font-semibold" style={{ background: fg, color: r.color }}>
-            Lire l&apos;article
+            Lire l’article
           </span>
         </div>
       </Link>

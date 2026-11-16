@@ -23,7 +23,7 @@ export function Cover() {
 
       <div className="relative z-10 flex min-h-svh flex-col lg:w-[46%] lg:pl-[max(2rem,calc((100vw-72rem)/2+2rem))] lg:pr-12">
         <div className="rise w-[88%] rounded-br-[2.5rem] bg-white pb-5 pl-5 pr-6 pt-6 md:w-[70%] lg:w-auto lg:rounded-none lg:p-0 lg:pt-28">
-          <h1 className="sr-only">Pôles Actu, le magazine du Pôle d&apos;Activités d&apos;Aix-en-Provence, numéro {issue.number}</h1>
+          <h1 className="sr-only">Pôles Actu, le magazine du Pôle d’Activités d’Aix-en-Provence, numéro {issue.number}</h1>
           <div className="lg:hidden">
             <Logo height={46} />
           </div>
@@ -36,7 +36,7 @@ export function Cover() {
         </div>
 
         <p className="rise rise-2 mt-3 hidden max-w-sm text-xl leading-snug text-mute lg:block">
-          Le magazine de l&apos;Association des Entreprises du Pôle d&apos;Activités d&apos;Aix-en-Provence.
+          Le magazine de l’Association des Entreprises du Pôle d’Activités d’Aix-en-Provence.
         </p>
 
         <div className="flex-1" />
@@ -45,7 +45,7 @@ export function Cover() {
           <p className="font-extralight text-4xl leading-none tracking-wide md:text-5xl">N° {issue.number}</p>
           <p className="mt-1 text-2xl font-light uppercase tracking-[0.12em] md:text-3xl">{issue.label}</p>
           <p className="mt-4 hidden max-w-sm text-lg leading-snug text-mute lg:block">
-            Santé du dirigeant, cycle de l&apos;eau, mobilité, portraits et rendez-vous à ne pas manquer.
+            Santé du dirigeant, cycle de l’eau, mobilité, portraits et rendez-vous à ne pas manquer.
           </p>
           <a
             href="#sommaire"

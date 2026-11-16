@@ -7,7 +7,7 @@ const article: Article = {
   title: "Le cycle de l’eau",
   subtitle: "L’eau, un bien précieux qu’il convient de protéger",
   chapo:
-    "Qu’est-ce qui différencie la Terre des autres planètes connues ? Et quel est l’élément indispensable à la vie que l’homme recherche partout dans l’univers ? L’eau, bien sûr !",
+    "Qu’est-ce qui différencie la Terre des autres planètes connues ? Et quel est l’élément indispensable à la vie que l’homme recherche partout dans l’univers ? L’eau, bien sûr !",
   author: "Martine Debette",
   cover: {
     src: "/n90/eau-01-ouverture.jpg",
@@ -71,7 +71,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Distribution après compteur : La Société des Eaux de Marseille",
+      text: "Après le compteur : la Société des Eaux de Marseille",
     },
     {
       type: "paragraph",
@@ -125,7 +125,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Économie d’eau — chaque goutte compte !",
+      text: "Économie d’eau : chaque goutte compte !",
     },
     {
       type: "heading",
@@ -133,7 +133,7 @@ const article: Article = {
     },
     {
       type: "paragraph",
-      text: "Dans un contexte où la gestion responsable des ressources est plus cruciale que jamais, maîtriser sa facture d’eau n’est pas seulement une question d’économie, mais aussi synonyme d’une gestion plus durable de l’eau. Au-delà des objectifs du PLAN EAU 2023 fixant la réduction de 10% des prélèvements à horizon 2030, les entreprises se doivent de mettre en place les mesures appropriées pour garantir une utilisation efficace et responsable de l’eau.",
+      text: "Dans un contexte où la gestion responsable des ressources est plus cruciale que jamais, maîtriser sa facture d’eau n’est pas seulement une question d’économie, mais aussi synonyme d’une gestion plus durable de l’eau. Au-delà des objectifs du PLAN EAU 2023 fixant la réduction de 10 % des prélèvements à horizon 2030, les entreprises se doivent de mettre en place les mesures appropriées pour garantir une utilisation efficace et responsable de l’eau.",
     },
     {
       type: "image",
@@ -167,7 +167,7 @@ const article: Article = {
     },
     {
       type: "callout",
-      title: "12ème programme 2025-2030 de l’Agence de l’Eau",
+      title: "12e programme 2025-2030 de l’Agence de l’Eau",
       text: [
         "+25 % de budget (520 M€/an) par rapport au 11ème programme pour soutenir des objectifs ambitieux en matière de sobriété de l’eau avec des actions élargies aux acteurs économiques.",
       ],
@@ -183,7 +183,7 @@ const article: Article = {
     },
     {
       type: "paragraph",
-      text: "L’Agence de l’Eau Rhône Méditerranée Corse soutient des études et travaux d’économie d’eau portés par les entreprises soit “individuellement” (pour des consommations >2000m³/an) ou “collectivement” ainsi également que des actions de communication, de sensibilisation ou d’amélioration de la connaissance.",
+      text: "L’Agence de l’Eau Rhône Méditerranée Corse soutient des études et travaux d’économie d’eau portés par les entreprises soit “individuellement” (pour des consommations > 2 000 m³/an) ou “collectivement” ainsi également que des actions de communication, de sensibilisation ou d’amélioration de la connaissance.",
     },
     {
       type: "callout",
@@ -201,39 +201,39 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Entreprises, des solutions sur mesure sont à votre disposition pour optimiser votre consommation d’eau",
+      text: "Des solutions sur mesure pour optimiser votre consommation d’eau",
     },
     {
       type: "qa",
       question: "Quelle est la répartition de la consommation d’eau par usage en entreprise ?",
       answer: [
-        "Une enquête de la CCI PACA en juillet 2024 a permis de mettre en évidence que 73% de l’eau consommée par les entreprises est utilisée pour répondre aux besoins de ses employés. Il est donc essentiel de sensibiliser et d’impliquer les employés dans les efforts de réduction de la consommation d’eau.",
+        "Une enquête de la CCI PACA en juillet 2024 a permis de mettre en évidence que 73 % de l’eau consommée par les entreprises est utilisée pour répondre aux besoins de leurs employés. Il est donc essentiel de sensibiliser et d’impliquer les employés dans les efforts de réduction de la consommation d’eau.",
       ],
     },
     {
       type: "heading",
-      text: "Répartition moyenne des usagers de l’eau en entreprise (tous secteurs confondus)",
+      text: "Où va l’eau consommée en entreprise ?",
     },
     {
       type: "stats",
       items: [
-        { value: "73%", label: "Réponse aux besoins des employés" },
-        { value: "17%", label: "Entretien et nettoyage des équipements" },
-        { value: "9%", label: "Entre dans la composition du produit ou service" },
-        { value: "1%", label: "Process" },
-        { value: "0,1%", label: "Autre" },
+        { value: "73 %", label: "Réponse aux besoins des employés" },
+        { value: "17 %", label: "Entretien et nettoyage des équipements" },
+        { value: "9 %", label: "Entre dans la composition du produit ou service" },
+        { value: "1 %", label: "Process" },
+        { value: "0,1 %", label: "Autre" },
       ],
     },
     {
       type: "callout",
-      title: "Restez informé sur la situation de sécheresse sur vigieau.gouv.fr/",
+      title: "Sécheresse : restez informé sur vigieau.gouv.fr",
       text: [
         "Afin de vous accompagner dans votre démarche d’optimisation de votre consommation d’eau, prenez rdv avec un expert de la gestion de l’eau via contact@entreprises-aix.com",
       ],
     },
     {
       type: "heading",
-      text: "Comment suivre sa consommation ? l’optimiser ou la réduire ?",
+      text: "Suivre, optimiser, réduire sa consommation",
     },
     {
       type: "list",

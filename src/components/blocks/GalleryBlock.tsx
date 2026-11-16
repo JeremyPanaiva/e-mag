@@ -139,7 +139,7 @@ export function GalleryBlock({ images }: { images: GalleryImage[] }) {
           </div>
           <p className="min-h-16 px-5 py-3 text-center text-sm text-white/80">
             {current.caption ?? current.alt}
-            {current.credit && <span className="block text-xs text-white/50">{current.credit}</span>}
+            {current.credit && <span className="block text-xs text-white/70">{current.credit}</span>}
           </p>
         </div>
       )}

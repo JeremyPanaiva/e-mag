@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# e-mag — Pôles Actu n°90
 
-## Getting Started
+Maquette web du magazine **Pôles Actu**, le journal du Pôle d'Activités d'Aix-en-Provence (PAAP). Le projet reprend le contenu du numéro 90 (juin 2026) et le présente sous forme de site éditorial : couverture, sommaire, articles, rubriques et publicités.
 
-First, run the development server:
+Il s'agit d'une **maquette** destinée à montrer un rendu visuel à un client : le contenu est extrait du PDF officiel, mais il n'y a ni CMS, ni authentification, ni base de données.
+
+**Démo en ligne** : https://jeremypanaiva.github.io/e-mag/
+
+## Stack
+
+- Next.js 16 (App Router, Turbopack) et React 19, en TypeScript strict
+- Tailwind CSS v4 (configuration dans `src/app/globals.css`)
+- Export statique (`output: "export"`) pour GitHub Pages
+- Windows 11, Node 24, npm
+
+## Commandes
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install      # dépendances
+npm run dev      # serveur local sur http://localhost:3000
+npm run build    # build statique dans out/
+npm run lint     # ESLint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+  app/          routes (une page = un dossier avec page.tsx)
+  components/   composants réutilisables (un composant par fichier)
+  content/      contenu typé : articles, rubriques, partenaires, numéro
+  lib/          utilitaires (résumés, rubriques, chemins d'assets)
+public/         images, logos et assets (chemins /n90/..., /partners/...)
+source/         matière première extraite du PDF (textes, images, logos, pubs)
+.github/workflows/deploy.yml   déploiement automatique
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Le contenu éditorial vit dans `src/content/articles/*.ts` : un fichier par article, typé par `src/content/types.ts`.
 
-## Learn More
+## Source du contenu
 
-To learn more about Next.js, take a look at the following resources:
+Tout le contenu vient du PDF officiel de Pôles Actu n°90 (source : entreprises-aix.com). Le dossier `source/` contient :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `textes/` : texte intégral des articles retenus, sommaire et publicités
+- `images/` : photos des articles, nommées `<article>-NN.jpg`
+- `couverture/`, `logos/`, `mascotte/`, `pubs/`, `pages/` : couverture, logos, mascotte Actuboy, pages de publicité et rendu de chaque page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Les images utilisées par le site sont des versions optimisées copiées dans `public/`.
 
-## Deploy on Vercel
+## Déploiement
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Le workflow `.github/workflows/deploy.yml` se déclenche à chaque push sur `main` (ou manuellement) :
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. installation des dépendances (`npm ci`) et build avec `NEXT_PUBLIC_BASE_PATH=/<nom-du-repo>`, pour que le site soit servi sous `/e-mag/` ;
+2. ajout d'un fichier `.nojekyll` dans `out/` ;
+3. publication de `out/` sur GitHub Pages.
+
+Le site est donc accessible à l'adresse de la démo ci-dessus.

@@ -42,11 +42,11 @@ export function ArticleHero({ article, minutes }: { article: Article; minutes: n
           )}
         </div>
         {article.cover.credit && (
-          <p className="absolute bottom-2 right-3 text-[0.7rem] text-white/70">{article.cover.credit}</p>
+          <p className="absolute bottom-2 right-3 text-[0.7rem] text-white/85 [text-shadow:0_1px_2px_rgba(0,0,0,.6)]">{article.cover.credit}</p>
         )}
       </div>
 
-      <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-6 gap-y-1 border-b border-line px-5 py-4 text-[0.95rem] text-mute md:px-8">
+      <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-6 gap-y-1 border-b border-line px-5 py-4 text-[0.95rem] text-mute-strong md:px-8">
         <p>
           Par <span className="font-semibold text-ink">{article.author}</span>
         </p>

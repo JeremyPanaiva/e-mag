@@ -26,10 +26,10 @@ export function ImageBlock({ image, layout = "inline" }: { image: ImageRef; layo
           }
         />
         {(image.caption || image.credit) && (
-          <figcaption className={`mt-3 w-full text-[0.95rem] leading-snug text-mute ${full ? "mx-auto max-w-[40rem] px-5" : ""}`}>
+          <figcaption className={`caption mt-3 w-full ${full ? "mx-auto max-w-[40rem] px-5" : ""}`}>
             {image.caption}
             {image.caption && image.credit && " "}
-            {image.credit && <span className="opacity-80">{image.credit}</span>}
+            {image.credit && <span className="caption-credit">{image.credit}</span>}
           </figcaption>
         )}
       </figure>

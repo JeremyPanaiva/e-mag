@@ -63,11 +63,11 @@ export function ArticleNav({ slug, summaries }: { slug: string; summaries: Summa
   return (
     <nav
       aria-label="Navigation entre les articles"
-      className="fixed inset-x-0 bottom-0 z-50 border-t border-line bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur"
+      className="fixed inset-x-0 bottom-0 z-50 border-t border-line bg-white/95 shadow-[0_-4px_16px_rgba(0,0,0,0.04)] pb-[env(safe-area-inset-bottom)] backdrop-blur"
     >
       <div className="mx-auto grid h-16 max-w-5xl grid-cols-[1fr_auto_1fr] items-center gap-2 px-2 md:px-8">
         {prev ? (
-          <Link href={`/articles/${prev.slug}/`} rel="prev" className="flex min-h-12 min-w-0 items-center gap-1.5 rounded-lg px-2 text-ink hover:bg-sand">
+          <Link href={`/articles/${prev.slug}/`} rel="prev" className="flex min-h-14 min-w-0 items-center gap-1.5 press rounded-lg px-2 text-ink hover:bg-sand active:bg-line">
             <Arrow dir="left" />
             <span className="min-w-0">
               <span className="block text-sm font-semibold md:text-xs md:font-normal md:text-mute">Précédent</span>
@@ -79,7 +79,7 @@ export function ArticleNav({ slug, summaries }: { slug: string; summaries: Summa
         )}
         <button
           onClick={() => setOpen(true)}
-          className="flex h-11 items-center gap-2 rounded-full bg-ink px-5 text-[0.95rem] font-semibold text-white hover:bg-violet"
+          className="press flex h-12 items-center gap-2 rounded-full bg-ink px-5 text-[0.95rem] font-semibold text-white hover:bg-violet"
         >
           <svg width="16" height="12" viewBox="0 0 18 14" aria-hidden>
             <path d="M0 1h18M0 7h12M0 13h18" stroke="currentColor" strokeWidth="2.2" />

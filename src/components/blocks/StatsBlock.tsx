@@ -66,7 +66,7 @@ export function StatsBlock({ items }: { items: { value: string; label: string }[
         {items.map((it) => (
           <div key={it.label} className="flex flex-col md:min-w-[10rem] md:flex-1">
             <dt className="order-2 mt-2 max-w-[14rem] text-[1rem] leading-snug text-ink/80">{it.label}</dt>
-            <dd className="order-1 font-display text-[2.6rem] leading-none text-[var(--accent)] md:text-6xl" style={{ fontVariantNumeric: "tabular-nums" }}>
+            <dd className="order-1 font-display text-[2.6rem] leading-none text-[var(--accent-ink)] md:text-6xl" style={{ fontVariantNumeric: "tabular-nums" }}>
               <Figure value={it.value} />
             </dd>
           </div>

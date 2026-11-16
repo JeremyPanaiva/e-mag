@@ -4,9 +4,9 @@ const article: Article = {
   slug: "quoi-de-neuf",
   rubrique: "quoi-de-neuf",
   kicker: "Quoi de neuf",
-  title: "Quoi de neuf sur le pôle ?",
+  title: "Arrivées, fusions, départs : quoi de neuf sur le pôle ?",
   chapo:
-    "Agenda, arrivées, déménagements, départs, fusions : toute l'actualité des entreprises du Pôle d'Activités d'Aix-en-Provence.",
+    "Agenda, arrivées, déménagements, départs, fusions : toute l’actualité des entreprises du Pôle d’Activités d’Aix-en-Provence.",
   author: "La rédaction",
   cover: {
     src: "/n90/qdn-fond.jpg",
@@ -60,7 +60,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Sur le pôle ?",
+      text: "Vie des entreprises du pôle",
     },
     {
       type: "directory",

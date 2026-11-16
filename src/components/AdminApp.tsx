@@ -71,7 +71,7 @@ export function AdminApp({ summaries }: { summaries: Summary[] }) {
           <button
             onClick={() => {
               saveOrder(null);
-              setNote("Ordre d'origine rétabli.");
+              setNote("Ordre d’origine rétabli.");
             }}
             disabled={isDefault}
             className="inline-flex h-12 items-center rounded-full border border-ink px-5 font-semibold hover:bg-ink hover:text-white disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-ink"
@@ -103,7 +103,7 @@ export function AdminApp({ summaries }: { summaries: Summary[] }) {
             {PALETTE.map((p) => (
               <li key={p.label}>
                 <button
-                  onClick={() => setNote("Démo : l'ajout de contenu n'est pas actif dans cette maquette.")}
+                  onClick={() => setNote("Démo : l’ajout de contenu n’est pas actif dans cette maquette.")}
                   className="flex h-24 w-full flex-col items-center justify-center gap-1 rounded-2xl border border-dashed border-ink/30 bg-white text-[0.95rem] font-semibold transition-colors hover:border-violet hover:bg-sand"
                 >
                   <span className="font-display text-3xl text-violet" aria-hidden>

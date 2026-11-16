@@ -71,7 +71,7 @@ export function DirectoryBlock({ groups }: { groups: DirectoryGroup[] }) {
         <div className="mt-2 space-y-8">
           {visible.map((g) => (
             <div key={g.title}>
-              <h3 className="font-display text-2xl text-[var(--accent)]">{g.title}</h3>
+              <h3 className="font-display text-2xl text-[var(--accent-ink)]">{g.title}</h3>
               <ul className="mt-3 grid gap-3 md:grid-cols-2">
                 {g.entries.map((e) => (
                   <EntryCard key={e.name + (e.address ?? "")} e={e} />

@@ -36,13 +36,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
   return (
     <article
-      style={{ ["--accent" as string]: color, ["--on-accent" as string]: onColor(color) }}
+      style={{ ["--accent" as string]: color, ["--on-accent" as string]: onColor(color), ["--accent-ink" as string]: `color-mix(in srgb, ${color} 68%, #000)` }}
       className="pb-4"
     >
       <ReadingProgress />
       <ArticleHero article={article} minutes={readingMinutes(article)} />
-      <div className="flow prose-body pb-6 pt-10 md:pt-14">
-        <p className="border-l-4 border-[var(--accent)] pl-5 text-[1.35rem] leading-snug text-ink md:text-[1.6rem]">
+      <div className="flow prose-body pb-10 pt-10 md:pt-14">
+        <p className="border-l-4 border-[var(--accent)] pl-5 font-medium text-[1.3rem] leading-[1.4] text-ink [hyphens:manual] md:pl-6 md:text-[1.55rem] md:leading-[1.4]">
           {article.chapo}
         </p>
         <BlockRenderer blocks={article.blocks} />

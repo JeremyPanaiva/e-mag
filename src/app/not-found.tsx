@@ -18,7 +18,7 @@ export default function NotFound() {
         <p className="font-display text-7xl text-violet md:text-8xl">404</p>
         <h1 className="mt-2 font-display text-3xl md:text-4xl">Cette page a quitté le numéro.</h1>
         <p className="mt-3 max-w-md text-lg text-mute">
-          Actuboy a fouillé tout le Pôle d&apos;Activités, sans succès. Revenez au sommaire pour reprendre la lecture.
+          Actuboy a fouillé tout le Pôle d’Activités, sans succès. Revenez au sommaire pour reprendre la lecture.
         </p>
         <Link href="/" className="mt-6 inline-flex h-12 items-center rounded-full bg-ink px-6 font-semibold text-white hover:bg-violet">
           Retour au sommaire

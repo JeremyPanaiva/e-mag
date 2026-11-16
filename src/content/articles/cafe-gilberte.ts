@@ -5,9 +5,9 @@ const article: Article = {
   rubrique: "portraits",
   kicker: "Portrait",
   title: "Café Gilberte",
-  subtitle: "amitié et tradition au service de la restauration",
+  subtitle: "Deux amies, un héritage culinaire et des menus de saison",
   chapo:
-    "Amies de longue date, Alice et Lucie ont ouvert le Café Gilberte le 31 octobre 2023. Leur objectif ? « Offrir une proposition culinaire saine et gourmande pour le déjeuner ».",
+    "Amies de longue date, Alice et Lucie ont ouvert le Café Gilberte le 31 octobre 2023. Leur objectif ? « Offrir une proposition culinaire saine et gourmande pour le déjeuner ».",
   author: "Martine Debette",
   cover: {
     src: "/n90/gilberte-01-ouverture.jpg",
@@ -56,7 +56,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Oser les associations…",
+      text: "Oser les associations inattendues",
     },
     {
       type: "paragraph",
@@ -64,7 +64,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Savoir rire des loupés et des imprévus !",
+      text: "Savoir rire des loupés et des imprévus",
     },
     {
       type: "paragraph",
@@ -76,7 +76,7 @@ const article: Article = {
     },
     {
       type: "heading",
-      text: "Une équipe 100% féminine",
+      text: "Une équipe 100 % féminine",
     },
     {
       type: "paragraph",

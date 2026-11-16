@@ -34,7 +34,7 @@ export function ShareButton({ title }: { title: string }) {
       </button>
       <span role="status" className="text-sm text-mute">
         {status === "copied" && "Lien copié dans le presse-papiers"}
-        {status === "error" && "Copiez l'adresse depuis la barre du navigateur"}
+        {status === "error" && "Copiez l’adresse depuis la barre du navigateur"}
       </span>
     </div>
   );
