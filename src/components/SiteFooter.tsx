@@ -1,11 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import { asset } from "@/lib/asset";
+import { rubriques } from "@/content/rubriques";
 
 export function SiteFooter() {
   return (
-    <footer className="mt-24 bg-ink pb-24 pt-14 text-white">
-      <div className="mx-auto grid max-w-6xl gap-10 px-5 md:grid-cols-[auto_1fr_auto] md:items-start md:px-8">
+    <footer className="on-dark mt-24 bg-ink pb-16 text-white">
+      {/* Rubrique colour strip: the issue's palette in one line. */}
+      <div aria-hidden className="flex h-2">
+        {Object.values(rubriques).map((r) => (
+          <span key={r.id} className="flex-1" style={{ background: r.color }} />
+        ))}
+      </div>
+      <div className="mx-auto grid max-w-6xl gap-10 px-5 pt-14 md:grid-cols-[auto_1fr_auto] md:items-start md:gap-14 md:px-8">
         <Image
           src={asset("/brand/logo-paap.png")}
           alt="Association des Entreprises du Pôle d'Activités d'Aix-en-Provence"
@@ -13,8 +20,8 @@ export function SiteFooter() {
           height={402}
           className="h-24 w-auto rounded-md bg-white p-2"
         />
-        <address className="text-[1.05rem] leading-relaxed not-italic text-white/80">
-          <p className="font-display text-xl text-white">
+        <address className="text-[1.05rem] leading-relaxed not-italic text-white/85">
+          <p className="max-w-md font-display text-xl leading-snug text-white">
             Association des Entreprises du Pôle d’Activités d’Aix-en-Provence
           </p>
           <p className="mt-3">Maison des Entreprises</p>
@@ -28,11 +35,11 @@ export function SiteFooter() {
             </a>
           </p>
         </address>
-        <p className="max-w-[16rem] text-sm text-white/60">
+        <p className="max-w-[16rem] border-l-2 border-violet pl-4 text-base leading-snug text-white/80">
           1 500 entreprises et 29 400 salariés sur le Pôle d’Activités d’Aix-en-Provence.
         </p>
       </div>
-      <div className="mx-auto mt-10 flex max-w-6xl flex-wrap items-center justify-between gap-3 border-t border-white/15 px-5 pt-6 text-sm text-white/50 md:px-8">
+      <div className="mx-auto mt-10 flex max-w-6xl flex-wrap items-center justify-between gap-x-6 gap-y-1 border-t border-white/15 px-5 pt-5 text-sm text-white/70 md:px-8">
         <p>Maquette du magazine Pôles Actu, contenus du n°90 (juin 2026).</p>
         <Link href="/admin/" className="inline-flex min-h-11 items-center underline underline-offset-4 hover:text-white">
           Espace rédaction (démo)

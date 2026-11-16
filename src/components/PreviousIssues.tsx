@@ -15,7 +15,7 @@ const previous = [
 export function PreviousIssues() {
   return (
     <section className="mx-auto mt-24 max-w-6xl px-5 md:mt-32 md:px-8" aria-labelledby="archives-titre">
-      <h2 id="archives-titre" className="font-display text-4xl md:text-5xl">
+      <h2 id="archives-titre" className="border-t-2 border-ink pt-8 font-display text-4xl md:text-5xl">
         Numéros précédents
       </h2>
       <p className="mt-3 max-w-xl text-lg text-mute">
@@ -26,14 +26,15 @@ export function PreviousIssues() {
           {previous.map((p) => {
             const inner = (
               <>
-                <span className="font-display text-6xl leading-none text-white/95">{p.n}</span>
-                <span className="mt-auto text-sm font-semibold text-white">
+                <span aria-hidden className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-white">Pôles Actu</span>
+                <span className="mt-2 font-display text-6xl leading-none text-white">{p.n}</span>
+                <span className="mt-auto w-fit rounded-full bg-ink/80 px-3 py-1 text-sm font-semibold text-white">
                   {p.href ? "Lire le PDF" : "Bientôt en ligne"}
                 </span>
               </>
             );
             const cls =
-              "flex aspect-[3/4] w-36 shrink-0 snap-start flex-col rounded-xl p-4 shadow-sm md:w-auto";
+              "flex aspect-[3/4] w-36 shrink-0 snap-start flex-col rounded-xl p-4 shadow-sm ring-1 ring-black/5 md:w-auto";
             return (
               <li key={p.n}>
                 {p.href ? (
@@ -42,13 +43,13 @@ export function PreviousIssues() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`Pôles Actu numéro ${p.n}, ouvrir le PDF`}
-                    className={`${cls} transition-transform hover:-translate-y-1`}
+                    className={`${cls} transition-[transform,box-shadow] duration-300 hover:-translate-y-1.5 hover:shadow-xl motion-reduce:transition-none motion-reduce:hover:translate-y-0`}
                     style={{ background: p.color }}
                   >
                     {inner}
                   </a>
                 ) : (
-                  <div className={`${cls} opacity-60`} style={{ background: p.color }} aria-label={`Pôles Actu numéro ${p.n}, bientôt en ligne`}>
+                  <div className={`${cls} saturate-50`} style={{ background: p.color }} aria-label={`Pôles Actu numéro ${p.n}, bientôt en ligne`}>
                     {inner}
                   </div>
                 )}
